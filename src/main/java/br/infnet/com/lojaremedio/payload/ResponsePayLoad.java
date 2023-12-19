@@ -1,4 +1,4 @@
-package br.infnet.com.venda.payload;
+package br.infnet.com.lojaremedio.payload;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

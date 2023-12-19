@@ -1,9 +1,9 @@
-package br.infnet.com.venda.controller;
+package br.infnet.com.lojaremedio.controller;
 
-import br.infnet.com.venda.exception.VacinaNotFoundException;
-import br.infnet.com.venda.model.Vacina;
-import br.infnet.com.venda.payload.ResponsePayLoad;
-import br.infnet.com.venda.service.VacinaService;
+import br.infnet.com.lojaremedio.exception.VendaNotFoundException;
+import br.infnet.com.lojaremedio.model.Vacina;
+import br.infnet.com.lojaremedio.payload.ResponsePayLoad;
+import br.infnet.com.lojaremedio.service.VacinaService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.http.HttpHeaders;
@@ -42,7 +42,7 @@ public class VacinaController {
 
             return ResponseEntity.ok(vacina);
 
-        }catch (VacinaNotFoundException ex){
+        }catch (VendaNotFoundException ex){
 
             ResponsePayLoad message = ResponsePayLoad.builder().Message("Not Found").dateTime(LocalDateTime.now()).build();
 

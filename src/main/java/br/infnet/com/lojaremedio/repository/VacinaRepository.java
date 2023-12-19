@@ -1,6 +1,6 @@
-package br.infnet.com.venda.repository;
+package br.infnet.com.lojaremedio.repository;
 
-import br.infnet.com.venda.model.Vacina;
+import br.infnet.com.lojaremedio.model.Vacina;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

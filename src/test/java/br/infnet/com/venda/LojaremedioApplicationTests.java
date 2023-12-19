@@ -1,4 +1,4 @@
-package br.infnet.com.lojaremedio;
+package br.infnet.com.venda;
 
 import info.schnatterer.mobynamesgenerator.MobyNamesGenerator;
 import org.junit.jupiter.api.Test;

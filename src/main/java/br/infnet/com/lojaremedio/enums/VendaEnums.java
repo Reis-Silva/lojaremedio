@@ -1,4 +1,4 @@
-package br.infnet.com.lojaremedio.model;
+package br.infnet.com.lojaremedio.enums;
 
 public enum VendaEnums {
     VACINA;

@@ -1,11 +1,11 @@
-package br.infnet.com.venda.service.impl;
+package br.infnet.com.lojaremedio.service.impl;
 
-import br.infnet.com.venda.model.Vacina;
-import br.infnet.com.venda.repository.VacinaRepository;
-import br.infnet.com.venda.service.VacinaService;
+import br.infnet.com.lojaremedio.model.Vacina;
+import br.infnet.com.lojaremedio.repository.VacinaRepository;
+import br.infnet.com.lojaremedio.service.VacinaService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import br.infnet.com.venda.exception.VacinaNotFoundException;
+import br.infnet.com.lojaremedio.exception.VendaNotFoundException;
 
 import java.util.Collection;
 
@@ -22,7 +22,7 @@ public class VacinaServiceImpl implements VacinaService {
     }
     @Override
     public Vacina obterPorId(Long id){
-        return vacinaRepository.findById(id).orElseThrow(VacinaNotFoundException::new);
+        return vacinaRepository.findById(id).orElseThrow(VendaNotFoundException::new);
     }
 
     @Override

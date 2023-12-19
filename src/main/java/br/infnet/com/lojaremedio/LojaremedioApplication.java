@@ -1,4 +1,4 @@
-package br.infnet.com.venda;
+package br.infnet.com.lojaremedio;
 
 import info.schnatterer.mobynamesgenerator.MobyNamesGenerator;
 import org.springframework.boot.SpringApplication;

@@ -2,6 +2,6 @@ package br.infnet.com.lojaremedio.service;
 
 import br.infnet.com.lojaremedio.model.Venda;
 
-public interface VendaInterface {
+public interface VendaService {
     Venda obterPorId(Long id);
 }

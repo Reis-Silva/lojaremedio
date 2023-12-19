@@ -1,11 +1,11 @@
 package br.infnet.com.lojaremedio.exception;
 
-public class VacinaNotFoundException extends RuntimeException {
-    public VacinaNotFoundException(){
+public class VendaNotFoundException extends RuntimeException {
+    public VendaNotFoundException(){
 
     }
 
-    public VacinaNotFoundException(String message){
+    public VendaNotFoundException(String message){
         super(message);
     }
 }
