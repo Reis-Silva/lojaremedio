@@ -6,9 +6,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import java.util.Properties;
 
 @SpringBootApplication
-public class LojaremedioApplication {
+public class VacinaApplication {
     public static void main(String[] args) {
-        SpringApplication springApplication = new SpringApplication(LojaremedioApplication.class);
+        SpringApplication springApplication = new SpringApplication(VacinaApplication.class);
         Properties properties = new Properties();
         //int serverPort = new Random().nextInt(8280, 8290);
         String nickName = MobyNamesGenerator.getRandomName();
