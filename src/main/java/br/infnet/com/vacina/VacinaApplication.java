@@ -1,4 +1,4 @@
-package br.infnet.com.lojaremedio;
+package br.infnet.com.vacina;
 
 import info.schnatterer.mobynamesgenerator.MobyNamesGenerator;
 import org.springframework.boot.SpringApplication;

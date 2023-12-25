@@ -1,11 +1,11 @@
-package br.infnet.com.lojaremedio.service.impl;
+package br.infnet.com.vacina.service.impl;
 
-import br.infnet.com.lojaremedio.model.Vacina;
-import br.infnet.com.lojaremedio.repository.VacinaRepository;
-import br.infnet.com.lojaremedio.service.VacinaService;
+import br.infnet.com.vacina.model.Vacina;
+import br.infnet.com.vacina.repository.VacinaRepository;
+import br.infnet.com.vacina.service.VacinaService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import br.infnet.com.lojaremedio.exception.VendaNotFoundException;
+import br.infnet.com.vacina.exception.VendaNotFoundException;
 
 import java.util.Collection;
 

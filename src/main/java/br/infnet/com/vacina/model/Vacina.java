@@ -1,4 +1,4 @@
-package br.infnet.com.lojaremedio.model;
+package br.infnet.com.vacina.model;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;

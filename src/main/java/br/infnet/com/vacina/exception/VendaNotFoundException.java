@@ -1,4 +1,4 @@
-package br.infnet.com.lojaremedio.exception;
+package br.infnet.com.vacina.exception;
 
 public class VendaNotFoundException extends RuntimeException {
     public VendaNotFoundException(){

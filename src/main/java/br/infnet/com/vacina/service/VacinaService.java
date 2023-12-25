@@ -1,6 +1,6 @@
-package br.infnet.com.lojaremedio.service;
+package br.infnet.com.vacina.service;
 
-import br.infnet.com.lojaremedio.model.Vacina;
+import br.infnet.com.vacina.model.Vacina;
 
 import java.util.Collection;
 

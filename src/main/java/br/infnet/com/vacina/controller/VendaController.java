@@ -1,10 +1,9 @@
-package br.infnet.com.lojaremedio.controller;
+package br.infnet.com.vacina.controller;
 
-import br.infnet.com.lojaremedio.exception.VendaNotFoundException;
-import br.infnet.com.lojaremedio.model.Vacina;
-import br.infnet.com.lojaremedio.model.Venda;
-import br.infnet.com.lojaremedio.payload.ResponsePayLoad;
-import br.infnet.com.lojaremedio.service.VendaService;
+import br.infnet.com.vacina.exception.VendaNotFoundException;
+import br.infnet.com.vacina.model.Venda;
+import br.infnet.com.vacina.payload.ResponsePayLoad;
+import br.infnet.com.vacina.service.VendaService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

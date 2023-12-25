@@ -1,6 +1,6 @@
-package br.infnet.com.lojaremedio.model;
+package br.infnet.com.vacina.model;
 
-import br.infnet.com.lojaremedio.enums.VendaEnums;
+import br.infnet.com.vacina.enums.VendaEnums;
 import jakarta.persistence.*;
 import lombok.Data;
 
